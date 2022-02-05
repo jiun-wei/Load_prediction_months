@@ -51,7 +51,7 @@ plt.grid()
 # plt.yticks(np.arange(0,12,1))
 plt.title("Gaussian distrbution")
 
-
+plt.rcParams['figure.dpi'] = 300
 plt.tick_params(labelsize=20) 
 plt.show()
 
